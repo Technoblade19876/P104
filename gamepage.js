@@ -18,13 +18,11 @@ function submit() {
 
     if (x == y) {
         alert(
-          "CONGRATULATIONS!!!" +
-            playername +
-            "YOU GUESSED IT RIGHT IN" +
-            guess +
-            " GUESS"
+          " CONGRATULATIONS!!! " + playername + " YOU GUESSED IT RIGHT IN " + guess +" GUESS"
         );
-      } else if (x > y) {
+      }
+      
+      if (x > y) {
         guess++;
         alert("OOPS SORRY!! TRY A SMALLER NUMBER");
       } else {
