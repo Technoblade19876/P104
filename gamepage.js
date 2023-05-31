@@ -25,10 +25,10 @@ function submit() {
         );
       } else if (x < y) {
         guess++;
-        alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+        alert("OOPS SORRY!! TRY A GREATER NUMBER");
       } else {
         guess++;
-        alert("OOPS SORRY!! TRY A GREATER NUMBER");
+        alert("OOPS SORRY!! TRY A SMALLER NUMBER");
       }
 }
 
