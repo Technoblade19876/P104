@@ -24,7 +24,7 @@ function submit() {
             guess +
             " GUESS"
         );
-      } else if (x < y) {
+      } else if (x > y) {
         guess++;
         alert("OOPS SORRY!! TRY A SMALLER NUMBER");
       } else {
