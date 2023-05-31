@@ -13,6 +13,7 @@ playername = localStorage.getItem("player_name");
 
 console.log(x);
 function submit() {
+
   var x = document.getElementById("Guess_text").value;
 
     if (x == y) {
@@ -25,10 +26,10 @@ function submit() {
         );
       } else if (x < y) {
         guess++;
-        alert("OOPS SORRY!! TRY A GREATER NUMBER");
+        alert("OOPS SORRY!! TRY A SMALLER NUMBER");
       } else {
         guess++;
-        alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+        alert("OOPS SORRY!! TRY A GREATER NUMBER");
       }
 }
 
